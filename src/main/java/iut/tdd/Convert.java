@@ -1,6 +1,8 @@
 package iut.tdd;
-
 import java.util.HashMap;
+import java.util.Map.Entry;
+
+import java.util.*;
 
 public class Convert {
 	
@@ -26,6 +28,20 @@ public class Convert {
 		num.put("quatorze", "14");
 		num.put("quinze", "15");
 		num.put("seize", "16");
+		num.put("vingt", "20");
+		num.put("trente", "30");
+		num.put("quarante", "40");
+		num.put("cinquante", "50");
+		num.put("soixante", "60");
+		num.put("cent", "100");
+		num.put("mille", "1000");
+			
+	//	Iterable it = num.entrySet().iterator();
+		
+		
+		
+		
+		
 		
 		
 
@@ -52,6 +68,13 @@ public class Convert {
 		num.put("14", "quatorze");
 		num.put("15", "quinze");
 		num.put("16", "seize");
+		num.put("20", "vingt");
+		num.put("30", "trente");
+		num.put("40", "quarante");
+		num.put("50", "cinquante");
+		num.put("60", "soixante");
+		num.put("100", "cent");
+		num.put("1000", "mille");
 		
 		return num.get(input);
 		
